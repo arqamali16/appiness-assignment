@@ -1,0 +1,64 @@
+@import '~antd/dist/antd.css';
+
+html,
+body,
+#root,
+#root > div {
+	height: 100%;
+	width: 100%;
+}
+
+.form-centre .ant-form {
+	max-width: 80%;
+	margin-top: 30%;
+}
+
+.image-centre {
+	display: flex;
+	justify-content: center;
+}
+
+.image-centre > img {
+	margin-top: 15%;
+	max-width: 60%;
+}
+
+.ant-page-header-ghost {
+	background-color: gainsboro;
+}
+
+.ant-page-header-heading-title {
+	margin-left: 50px;
+	margin-bottom: 0;
+	color: rgba(0, 0, 0, 0.85);
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 32px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.Cell {
+	border: 1px solid #f4f6f8;
+	padding: 4px;
+	text-align: center;
+}
+
+.Cell-Header {
+	width: 20%;
+	border: 1px solid #f4f6f8;
+	padding: 4px;
+	text-align: center;
+	background: azure;
+}
+
+.Table {
+	border: 1px solid;
+	background: #fff;
+	box-shadow: 0 2px 0 0 rgba(22, 29, 37, 0.05);
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	margin-top: 150px;
+}
