@@ -1,6 +1,6 @@
-# Instabook
+# Appiness Assignment
 
-This is the UI Code for Self Created Instabook Web App
+This is the UI Code for Self Created
 
 ## Quick Start
 
@@ -15,11 +15,8 @@ npm start
 
 Libraries/Technologies used are listed below.
 
-- React 16.13.1
-- Typescript 3.9.5
-- Kea JS (Redux State Management Library)
-- Jest (Testing)
-
-### Todos
-
-- Need to Create More Screens
+-   React 16.13.1
+-   Typescript 3.9.5
+-   Self Built Table Component
+-   Lodash for operations
+-   Redux
