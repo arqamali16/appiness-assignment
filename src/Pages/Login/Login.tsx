@@ -8,18 +8,15 @@ import { useHistory } from 'react-router-dom';
 import Form from '../../Components/Form';
 import Card from '../../Components/Card';
 
-/**
- * Funtion to check if the user is logged in and allow the restricted routes accordingly
- * @function Login
- * @param param0
- * @returns
- */
-const Login = (): React.ReactElement => {
+const Login = (props: any): React.ReactElement => {
 	const history = useHistory();
+
+	const { setUserDetails } = props;
 
 	const onSubmit = (values: any) => {
 		const { username, password } = values;
 		if (username === 'hruday@gmail.com' && password === 'hruday123') {
+			setUserDetails(values);
 			history.push('/dashboard');
 		} else {
 			alert('Entered username/password is incorrect');
